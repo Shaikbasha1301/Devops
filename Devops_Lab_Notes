@@ -27,6 +27,23 @@ Installing JDK and Jenkins
 
     systemctl status jenkins
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    Lab2
+
+    1) In the browser : localhost:8080
+
+
+    2) Go to terminal and type
+
+
+    cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
+    3) get the password and login
+
+
+    4) Install suggested plugin
+
+
 
 
 
