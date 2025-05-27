@@ -43,6 +43,115 @@ Installing JDK and Jenkins
 
     4) Install suggested plugin
 
+     
+
+     Lab 3:
+
+    Lab 2 https://www.openwriteup.com/?page_id=1115
+
+
+    node {
+
+    // Define the label of the agent where you want to run the pipeline
+
+    //label 'mylabel'
+
+    stage('Checkout') {
+
+    // Checkout code from the Git repository
+
+    sh 'echo checking out'
+
+    }
+
+    stage('Build') {
+
+    // Build the Java application (replace with your build commands)
+
+    sh 'java --version'
+
+    }
+
+    stage('Deploy') {
+
+    // Deploy the application (replace with your deployment commands)
+
+    sh 'echo "Deploying the application"'
+
+    }
+
+    }
+
+
+
+    Plugin: pipeline stage view
+
+
+-----------------
+
+Lab 4 : Decalartive pipeline :https://www.openwriteup.com/?page_id=1115 (Lab 3)
+
+pipeline {
+agent any
+stages {
+  stage('Checkout') {
+    steps {
+// Checkout code from the Git repository
+     sh 'echo checking out'
+   }
+  }
+stage('Build') {
+  steps {
+// Build the Java application (replace with your build commands)
+  sh 'javac -version'
+ }
+}
+stage('Deploy') {
+  steps {
+  // Deploy the application (replace with your deployment commands)
+   sh 'echo "Deploying the application"'
+   }
+  }
+ } 
+} 
+
+
+Lab 5: Assignment
+    
+
+    Go in your git repo “myrepo”
+
+    Create a “Jenkinsfile”
+
+    Copy the code from lab 3
+
+    checkin the code to github (using git add,commit and push
+
+    Create a new pipeline and scripting block dropdown, select “pipeline with SCM”
+
+    Mention your git repo and save .
+
+    Run the build
+
+
+
+--------------------------------------
+
+git add,commit and push using  ssh
+
+https://www.openwriteup.com/?page_id=1075
+
+Do the git init, git add, git commit
+
+     
+>> In case of forgeting Jenkins credential
+     vi /var/lib/jenkins/config.xml 
+replace true with fasle
+
+systemctl  restart jenkins 
+
+
+
 
 
 
