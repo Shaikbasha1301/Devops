@@ -49,7 +49,7 @@ Installing JDK and Jenkins
 
     Lab 2 https://www.openwriteup.com/?page_id=1115
 
-
+#use "bat" instaed of 'sh' while ur using windowshell cmd#
     node {
 
     // Define the label of the agent where you want to run the pipeline
@@ -149,6 +149,32 @@ Do the git init, git add, git commit
 replace true with fasle
 
 systemctl  restart jenkins 
+
+_____________________________
+
+Day 2
+git add,commit and push using  ssh
+
+https://www.openwriteup.com/?page_id=1075
+
+Do the git init, git add, git commit
+ 
+
+LAb2
+
+https://www.openwriteup.com/?page_id=1081
+
+Lab3:
+
+dnf install maven -y
+
+Lab 1: https://www.openwriteup.com/?page_id=1135
+
+Lab 2: https://www.openwriteup.com/?page_id=1135
+
+Lab 4: https://www.openwriteup.com/?page_id=1135
+
+Lab https://www.openwriteup.com/?page_id=1073 (lab 17)
 
 
 
